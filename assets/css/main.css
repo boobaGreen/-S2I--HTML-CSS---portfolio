@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #29263e;
+  transition: all 0.5s ease-in-out; /* Animation */
+}
+
+body.click-active {
+  background-color: #fff;
+}
+
+.container {
+  height: 100vh;
+  margin: auto;
+  width: 40%;
+  display: grid;
+  grid-template-rows: 1fr 4rem -webkit-min-content 3rem 1fr;
+  grid-template-rows: 1fr 4rem min-content 3rem 1fr;
+  /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
+  qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
+  eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
+  grafica*/
+  grid-template-columns: [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(8, [col-start] minmax(-webkit-min-content, 14rem) [col-end]) [airbag-dx-start normal-end] 1fr [airbag-dx-end full-end];
+  grid-template-columns: [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [airbag-dx-start normal-end] 1fr [airbag-dx-end full-end];
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+a:link {
+  text-decoration: none;
+  color: #82bbcf;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #82bbcf;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.75;
+}
+
+body.click-active {
+  color: #4f4f4f;
+}
+
+.principal {
+  font-size: 2.4rem;
+  line-height: 4.4rem;
+}
+
+.footer {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.airbagup {
+  grid-column: airbag-sx-start/airbag-sx-end;
+  grid-row: 1/2;
+}
+
+.airbagdown {
+  grid-column: airbag-sx-start/airbag-sx-end;
+  grid-row: 4/5;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  grid-column: normal-start/normal-end;
+  grid-row: 2/3;
+}
+
+.thema-selection {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+}
+.thema-selection::before {
+  opacity: 1;
+  position: absolute;
+  content: ""; /* content: "" - altrimenti non si vede l oggetto _before */
+  top: -12px;
+  right: 10px;
+  bottom: 10px;
+  left: 9px;
+  background-color: #29263e;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.thema-selection:hover {
+  transform: scale(1.15);
+}
+
+.thema-selection.click-active {
+  background-color: rgb(242, 227, 7);
+}
+.thema-selection.click-active::before {
+  overflow: hidden;
+  background-color: #4f4f4f;
+  transform: translate(10px, -10px);
+  opacity: 0;
+}
+.thema-selection.click-active:hover {
+  transform: scale(1.15);
+}
+
+.version-selection {
+  color: #fff;
+}
+
+.principal {
+  grid-column: normal-start/normal-end;
+  grid-row: 3/4;
+}
+
+.footer {
+  margin-top: 2rem;
+  grid-column: normal-start/normal-end;
+  grid-row: 4/5;
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+}/*# sourceMappingURL=main.css.map */

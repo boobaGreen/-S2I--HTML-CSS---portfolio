@@ -1,0 +1,46 @@
+.thema-selection {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $color-primary-night;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+
+  &::before {
+    opacity: 1;
+    position: absolute;
+    content: ""; /* content: "" - altrimenti non si vede l oggetto _before */
+    top: -12px;
+    right: 10px;
+    bottom: 10px;
+    left: 9px;
+    background-color: $color-background-night;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+
+.thema-selection.click-active {
+  background-color: $sun-color;
+
+  &::before {
+    overflow: hidden;
+    background-color: $color-primary-day;
+    transform: translate(10px, -10px);
+    opacity: 0;
+  }
+  &:hover {
+    transform: scale(1.15);
+  }
+}

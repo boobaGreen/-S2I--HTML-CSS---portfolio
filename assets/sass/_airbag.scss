@@ -1,0 +1,9 @@
+.airbagup {
+  grid-column: airbag-sx-start / airbag-sx-end;
+  grid-row: 1/2;
+}
+
+.airbagdown {
+  grid-column: airbag-sx-start / airbag-sx-end;
+  grid-row: 4/5;
+}

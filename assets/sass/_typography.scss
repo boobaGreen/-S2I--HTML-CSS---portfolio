@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62,5% -> 1rem = 10px
+}
+
+a:link {
+  text-decoration: none;
+  color: $color-secondary-night;
+}
+
+a:visited {
+  text-decoration: none;
+  color: $color-secondary-night;
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-primary-night;
+  font-weight: 700;
+  line-height: 1.75;
+}
+
+body.click-active {
+  color: $color-primary-day;
+}
+
+.principal {
+  font-size: 2.4rem;
+  line-height: 4.4rem;
+}
+
+.footer {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}

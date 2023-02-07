@@ -1,0 +1,50 @@
+// COLOR VARIABLES
+$color-background-day: #fff;
+$color-primary-day: #4f4f4f;
+$color-secondary-day: #82bbcf;
+
+$color-background-night: #29263e;
+$color-primary-night: #fff;
+$color-secondary-night: #82bbcf;
+
+$sun-color: rgb(242, 227, 7);
+
+// FONT VARIABLES
+$font-primary: -apple-system, BlinkMacSystemFont, sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $color-background-night;
+  transition: all 0.5s ease-in-out; /* Animation */
+}
+
+body.click-active {
+  background-color: $color-background-day;
+}
+
+.container {
+  height: 100vh;
+  margin: auto;
+  width: 40%;
+  display: grid;
+  grid-template-rows: 1fr 4rem min-content 3rem 1fr;
+
+  /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
+  qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
+  eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
+  grafica*/
+  grid-template-columns:
+    [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(
+      8,
+      [col-start] minmax(min-content, 14rem) [col-end]
+    )
+    [airbag-dx-start normal-end]
+    1fr [airbag-dx-end full-end];
+}

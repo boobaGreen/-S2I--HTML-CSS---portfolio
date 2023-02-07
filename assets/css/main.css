@@ -16,17 +16,15 @@ body.click-active {
 }
 
 .container {
-  height: 100vh;
+  height: 95vh;
   margin: auto;
   width: 40%;
   display: grid;
-  grid-template-rows: 1fr 4rem -webkit-min-content 3rem 1fr;
-  grid-template-rows: 1fr 4rem min-content 3rem 1fr;
+  grid-template-rows: 1fr 40px min-content 3rem 1fr;
   /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
   qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
   eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
   grafica*/
-  grid-template-columns: [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(8, [col-start] minmax(-webkit-min-content, 14rem) [col-end]) [airbag-dx-start normal-end] 1fr [airbag-dx-end full-end];
   grid-template-columns: [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [airbag-dx-start normal-end] 1fr [airbag-dx-end full-end];
 }
 
@@ -81,17 +79,17 @@ body.click-active {
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   grid-column: normal-start/normal-end;
   grid-row: 2/3;
+  overflow: hidden;
 }
 
 .thema-selection {
   opacity: 1;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  bottom: 5px;
+  left: 5px;
   background-color: #fff;
   height: 28px;
   width: 28px;
@@ -110,7 +108,7 @@ body.click-active {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  transition: all 0.3s;
+  transition: all 0.1s ease-out;
 }
 .thema-selection:hover {
   transform: scale(1.15);
@@ -120,10 +118,9 @@ body.click-active {
   background-color: rgb(242, 227, 7);
 }
 .thema-selection.click-active::before {
-  overflow: hidden;
-  background-color: #4f4f4f;
-  transform: translate(10px, -10px);
-  opacity: 0;
+  background-color: #fff;
+  transform: translate(8px, -20px);
+  opacity: 1;
 }
 .thema-selection.click-active:hover {
   transform: scale(1.15);

@@ -30,11 +30,11 @@ body.click-active {
 }
 
 .container {
-  height: 100vh;
+  height: 95vh;
   margin: auto;
   width: 40%;
   display: grid;
-  grid-template-rows: 1fr 20px min-content 3rem 1fr;
+  grid-template-rows: 1fr 40px min-content 3rem 1fr;
 
   /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
   qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed

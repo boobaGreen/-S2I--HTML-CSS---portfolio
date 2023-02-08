@@ -8,6 +8,10 @@ a:link {
   color: $color-secondary-night;
 }
 
+a:focus {
+  color: $color-tertiary-night;
+}
+
 a:visited {
   text-decoration: none;
   color: $color-secondary-night;

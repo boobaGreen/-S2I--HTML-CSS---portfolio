@@ -2,10 +2,12 @@
 $color-background-day: #fff;
 $color-primary-day: #4f4f4f;
 $color-secondary-day: #82bbcf;
+$color-tertiary-day: #427c91;
 
 $color-background-night: #29263e;
 $color-primary-night: #fff;
 $color-secondary-night: #82bbcf;
+$color-tertiary-night: #427c91;
 
 $sun-color: rgb(242, 227, 7);
 
@@ -32,7 +34,7 @@ body.click-active {
 .container {
   height: 95vh;
   margin: auto;
-  width: 40%;
+  width: 75%;
   display: grid;
   grid-template-rows: 1fr 4rem min-content 3rem 1fr;
 
@@ -42,8 +44,8 @@ body.click-active {
   grafica*/
   grid-template-columns:
     [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(
-      8,
-      [col-start] minmax(min-content, 14rem) [col-end]
+      4,
+      [col-start] minmax(12rem, 240rem) [col-end]
     )
     [airbag-dx-start normal-end]
     1fr [airbag-dx-end full-end];

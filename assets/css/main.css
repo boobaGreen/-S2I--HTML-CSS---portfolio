@@ -18,14 +18,14 @@ body.click-active {
 .container {
   height: 95vh;
   margin: auto;
-  width: 40%;
+  width: 75%;
   display: grid;
   grid-template-rows: 1fr 4rem min-content 3rem 1fr;
   /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
   qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
   eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
   grafica*/
-  grid-template-columns: [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [airbag-dx-start normal-end] 1fr [airbag-dx-end full-end];
+  grid-template-columns: [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(4, [col-start] minmax(12rem, 240rem) [col-end]) [airbag-dx-start normal-end] 1fr [airbag-dx-end full-end];
 }
 
 html {
@@ -36,6 +36,10 @@ html {
 a:link {
   text-decoration: none;
   color: #82bbcf;
+}
+
+a:focus {
+  color: #427c91;
 }
 
 a:visited {

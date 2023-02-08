@@ -1,14 +1,16 @@
 text_main = `
 Hi, I'm
-<a href="#/" id="main" rel="noopener">Claudio&nbsp;Dall'Ara</a>, a
-<a href="#/" id="curious" rel="noopener">curious</a> and
-<a href="#/" id="project" rel="noopener">enthusiastic</a> apprentice
-<a href="#/" id="code" rel="noopener">coder</a>.
-<br />
-I'm <a href="#/" id="work" rel="noopener">graying</a> but still have
-<a href="#/" id="dream" rel="noopener">dream</a> jobs.<br />
-&darr; Let's work togheter
+        <a href="#/" id="main" rel="noopener">Claudio&nbsp;Dall'Ara</a>, a
+        <a href="#/" id="curious" rel="noopener">curious</a> and
+        <a href="#/" id="project" rel="noopener">enthusiastic</a> apprentice
+        <a href="#/" id="code" rel="noopener">coder</a>.
+        <br />
+        I'm <a href="#/" id="work" rel="noopener">grizzled</a> but still have
+        <a href="#/" id="interest" rel="noopener">interests</a> and dream
+        <a href="#/" id="dream" rel="noopener">jobs</a> in my drawer.
+        <br />&darr; Let's work togheter
 `;
+
 text_code = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
@@ -16,7 +18,7 @@ some of my projects of the last period are in <a href="https://boobagreen.github
 <a href="https://forkify-claudiodallara77.netlify.app/" target="_blank">Javascript</a>.
 <br />&darr; Let's work togheter
 `;
-text_interests = `
+text_interest = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, My passions are retro-gaming&programming, guitar, astronomy, Serie C, movies, physics, philosophy and cats.
 <br />&darr; Let's work togheter
@@ -33,9 +35,9 @@ Hi, I'm
  last long job as <a href="https://www.unieuro.it/online/" target="_blank">Unieuro</a> store manager, current at <a href="https://www.unieurogambettola.it/" target="_blank">Maroni Group</a>.
  <br />&darr; Let's work togheter
 `;
-tetx_dream = `
+text_dream = `
 Hi, I'm
-<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, my dream jobs: Olivetti in the golden years, Llamasoft in the 80s, Binance.
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, my dream jobs: Olivetti in the golden years,</br> Llamasoft in the 80s, Binance.
 <br />&darr; Let's work togheter
 `;
 text_curious = `

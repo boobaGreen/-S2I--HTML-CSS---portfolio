@@ -1,28 +1,34 @@
-text_main = `Hi, I'm
-<a href="https://boobagreen.github.io/portfolio/"
-          >Claudio&nbsp;Dall'Ara</a
-        >, a curious and enthusiastic grizzled apprentice
-        <a href="#/" id="code">coder</a>. I too have
-        <a href="#/" id="passion">passions</a> and
-        <a href="#/" id="project">projects</a> ...
+text_main = `
+Hi, I'm
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, a curious and
+enthusiastic <a href="#/" id="work">grizzled</a> apprentice
+<a href="#/" id="code">coder</a>. I too have
+<a href="#/" id="passion">passions</a> and
+<a href="#/" id="project">projects</a> ...
 `;
 text_code = `
 Hi, I'm
-<a href="https://boobagreen.github.io/portfolio/">Claudio&nbsp;Dall'Ara</a>,
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
 some of my projects of the last period are in <a href="https://boobagreen.github.io/html_exercise/" target="_blank"> Html </a>, advanced <a href="https://boobagreen.github.io/advancedscss_claudio/" target="_blank"> CSS/SASS </a> and 
 <a href="https://forkify-claudiodallara77.netlify.app/" target="_blank">Javascript</a>.
 `;
 text_passion = `
-Hi, I'm Claudio Dall'Ara. My passions are retro-gaming&programming, guitar, astronomy, Serie C, movies, physics, philosophy and cats.
+Hi, I'm
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, My passions are retro-gaming&programming, guitar, astronomy, Serie C, movies, physics, philosophy and cats.
 `;
 text_project = `
-Hi, I'm Claudio Dall'Ara, currently engaged in a full stack development course. Active in Python-AWS bot development project in DeFi.
+Hi, I'm
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
+ currently engaged in a <a href="https://www.start2impact.it/master/full-stack-development/" target="_blank">full stack development</a> course. Active in various<a href="https://github.com/boobaGreen/dydx" target="_blank"> Python </a>AWS DeFi bot projects.
 `;
 text_work = `
-Hi, I'm Claudio Dall'Ara, last long job as Unieuro store manager. Current at Maroni Group. I have 3 dream jobs.
+Hi, I'm
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
+ last long job as <a href="https://www.unieuro.it/online/" target="_blank">Unieuro</a> store manager. Current at <a href="https://www.unieurogambettola.it/" target="_blank">Maroni Group</a>. I have 3 dream <a href="https://forkify-claudiodallara77.netlify.app/" target="_blank">jobs</a>.
 `;
 tetx_dream = `
-Hi, I'm Claudio Dall'Ara, my dream jobs: Olivetti in the golden years, Llamasoft in the 80s, Binance.
+Hi, I'm
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, my dream jobs: Olivetti in the golden years, Llamasoft in the 80s, Binance.
 `;
 
 function myClick() {
@@ -32,8 +38,10 @@ function myClick() {
 
 function change_main(name_link) {
   var myDiv = document.getElementById("principal-space");
-
-  myDiv.innerHTML = window["text_" + name_link];
+  console.log(name_link);
+  if (name_link !== "") {
+    myDiv.innerHTML = window["text_" + name_link];
+  }
 }
 
 function callback(e) {

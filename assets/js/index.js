@@ -12,15 +12,21 @@ Hi, I'm
 some of my projects of the last period are in <a href="https://boobagreen.github.io/html_exercise/" target="_blank"> Html </a>, advanced <a href="https://boobagreen.github.io/advancedscss_claudio/" target="_blank"> CSS/SASS </a> and 
 <a href="https://forkify-claudiodallara77.netlify.app/" target="_blank">Javascript</a>.
 `;
-
+text_passion = `
+Hi, I'm Claudio Dall'Ara. My passions are retro-gaming&programming, guitar, astronomy, Serie C, movies, physics, philosophy and cats.
+`;
+text_project = `
+Hi, I'm Claudio Dall'Ara, currently engaged in a full stack development course. Active in Python-AWS bot development project in DeFi.
+`;
 function myClick() {
   document.getElementById("thema-selection").classList.toggle("click-active");
   document.getElementById("body").classList.toggle("click-active");
 }
 
-function check_coder() {
+function change_main(name_link) {
   var myDiv = document.getElementById("principal-space");
-  myDiv.innerHTML = text_code;
+
+  myDiv.innerHTML = window["text_" + name_link];
 }
 
 function callback(e) {
@@ -29,8 +35,7 @@ function callback(e) {
   console.log(e.target);
   console.log(e.target.tagName);
   if (e.target.tagName !== "A") return;
-
-  check_coder();
+  change_main(e.target.id);
 }
 
 const init = function () {

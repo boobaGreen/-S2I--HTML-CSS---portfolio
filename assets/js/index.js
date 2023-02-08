@@ -13,7 +13,8 @@ Hi, I'm
 text_curious = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
-I often get lost in <a href="#/" id="dream" rel="noopener">retro-gaming</a>,</br>
+I often get lost in <a href="#/" id="dream" rel="noopener">music</a>,
+<a href="#/" id="dream" rel="noopener">retro-gaming</a>,</br>
  watching <a href="#/" id="dream" rel="noopener">Serie C</a> and TV 
  <a href="#/" id="dream" rel="noopener">series</a>,
  <a href="#/" id="dream" rel="noopener">physics </a>  and cats.
@@ -35,11 +36,13 @@ some of my projects of the last period are in <a href="https://boobagreen.github
 text_work = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
- last long job as <a href="https://www.unieuro.it/online/" target="_blank">Unieuro</a> store manager, current at <a href="https://www.unieurogambettola.it/" target="_blank">Maroni Group</a>.
+ last long job as <a href="https://www.unieuro.it/online/" target="_blank">Unieuro</a>store manager, current at <a href="https://www.unieurogambettola.it/" target="_blank">Maroni Group</a>.
  <br />&darr; Let's work togheter
 `;
 text_interest = `
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
+sometimes I find myself delving into something about the guitar,
+regarding a post about UX/UI design,retro-coding,blockchain and cats.
 <br />&darr; Let's work togheter
 `;
 text_dream = `

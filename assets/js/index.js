@@ -18,6 +18,13 @@ Hi, I'm Claudio Dall'Ara. My passions are retro-gaming&programming, guitar, astr
 text_project = `
 Hi, I'm Claudio Dall'Ara, currently engaged in a full stack development course. Active in Python-AWS bot development project in DeFi.
 `;
+text_work = `
+Hi, I'm Claudio Dall'Ara, last long job as Unieuro store manager. Current at Maroni Group. I have 3 dream jobs.
+`;
+tetx_dream = `
+Hi, I'm Claudio Dall'Ara, my dream jobs: Olivetti in the golden years, Llamasoft in the 80s, Binance.
+`;
+
 function myClick() {
   document.getElementById("thema-selection").classList.toggle("click-active");
   document.getElementById("body").classList.toggle("click-active");

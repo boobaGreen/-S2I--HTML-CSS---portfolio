@@ -10,18 +10,14 @@ Hi, I'm
         <a href="#/" id="dream" rel="noopener">jobs</a> in my drawer.
         <br />&darr; Let's work togheter
 `;
-
-text_code = `
+text_curious = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
-some of my projects of the last period are in <a href="https://boobagreen.github.io/html_exercise/" target="_blank"> Html</a>,</br> advanced <a href="https://boobagreen.github.io/advancedscss_claudio/" target="_blank"> CSS/SASS </a> and 
-<a href="https://forkify-claudiodallara77.netlify.app/" target="_blank">Javascript</a>.
-<br />&darr; Let's work togheter
-`;
-text_interest = `
-Hi, I'm
-<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, My passions are retro-gaming&programming, guitar, astronomy, Serie C, movies, physics, philosophy and cats.
-<br />&darr; Let's work togheter
+I often get lost in <a href="#/" id="dream" rel="noopener">retro-gaming</a>,</br>
+ watching <a href="#/" id="dream" rel="noopener">Serie C</a> and TV 
+ <a href="#/" id="dream" rel="noopener">series</a>,
+ <a href="#/" id="dream" rel="noopener">physics </a>  and cats.
+ <br />&darr; Let's work togheter
 `;
 text_project = `
 Hi, I'm
@@ -29,20 +25,28 @@ Hi, I'm
  currently engaged in a <a href="https://www.start2impact.it/master/full-stack-development/" target="_blank">full stack development</a> course.</br> Active in various<a href="https://github.com/boobaGreen/dydx" target="_blank"> Python </a>AWS DeFi bot projects.
  <br />&darr; Let's work togheter
 `;
+text_code = `
+Hi, I'm
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
+some of my projects of the last period are in <a href="https://boobagreen.github.io/html_exercise/" target="_blank"> Html</a>,</br> advanced <a href="https://boobagreen.github.io/advancedscss_claudio/" target="_blank"> CSS/SASS </a> and 
+<a href="https://forkify-claudiodallara77.netlify.app/" target="_blank">Javascript</a>.
+<br />&darr; Let's work togheter
+`;
 text_work = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
  last long job as <a href="https://www.unieuro.it/online/" target="_blank">Unieuro</a> store manager, current at <a href="https://www.unieurogambettola.it/" target="_blank">Maroni Group</a>.
  <br />&darr; Let's work togheter
 `;
-text_dream = `
-Hi, I'm
-<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, my dream jobs: Olivetti in the golden years,</br> Llamasoft in the 80s, Binance.
+text_interest = `
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
 <br />&darr; Let's work togheter
 `;
-text_curious = `
+text_dream = `
 Hi, I'm
-<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, My passions are retro-gaming&programming, guitar, astronomy, Serie C, movies, physics, philosophy and cats.
+<a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, my dream jobs are <a href="https://www.raiplay.it/programmi/adrianoolivetti" target="_blank">Olivetti </a>in the 60s,</br>
+<a href="https://en.wikipedia.org/wiki/Jeff_Minter" target="_blank">Llamasoft</a> in the 80s,
+<a href="https://www.binance.com/it" target="_blank">Binance</a> now.
 <br />&darr; Let's work togheter
 `;
 

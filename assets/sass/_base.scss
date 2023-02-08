@@ -34,7 +34,7 @@ body.click-active {
 .container {
   height: 95vh;
   margin: auto;
-  width: 75%;
+  width: 55%;
   display: grid;
   grid-template-rows: 1fr 4rem min-content 3rem 1fr;
 
@@ -44,7 +44,7 @@ body.click-active {
   grafica*/
   grid-template-columns:
     [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(
-      4,
+      8,
       [col-start] minmax(12rem, 240rem) [col-end]
     )
     [airbag-dx-start normal-end]

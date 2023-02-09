@@ -42,6 +42,10 @@ a:focus {
   color: #427c91;
 }
 
+a:hover {
+  color: #427c91;
+}
+
 a:visited {
   text-decoration: none;
   color: #82bbcf;

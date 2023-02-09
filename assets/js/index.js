@@ -7,7 +7,7 @@ Hi, I'm
         I'm <a href="#/" id="work" rel="noopener">grizzled</a> but still have
         <a href="#/" id="interest" rel="noopener">interests</a> and dream
         <a href="#/" id="dream" rel="noopener">jobs</a> in my drawer.
-        <br />&darr; Let's work togheter
+        <br />&darr; Let's work together
 `;
 text_curious = `
 Hi, I'm
@@ -17,26 +17,26 @@ I often get lost in <a href="https://www.youtube.com/watch?v=kemivUKb4f4" target
  watching <a href="https://www.youtube.com/watch?v=SlDvRWuDmRk" target="_blank"">Serie C</a> and TV 
  <a href="https://www.youtube.com/watch?v=ArtxggPM_J0" target="_blank"">series</a>,
  <a href="https://www.youtube.com/watch?v=KQTqUazqnVY" target="_blank"">physics </a>  and cats.
- <br />&darr; Let's work togheter
+ <br />&darr; Let's work together
 `;
 text_project = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
  currently engaged in a <a href="https://www.start2impact.it/master/full-stack-development/" target="_blank">full stack development</a> course. Active in various<a href="https://github.com/boobaGreen/dydx" target="_blank"> Python </a>AWS DeFi bot <a href="https://www.udemy.com/user/shaun34/" target="_blank"> projects</a>.
- <br />&darr; Let's work togheter
+ <br />&darr; Let's work together
 `;
 text_code = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
 some of my projects of the last period are in <a href="https://boobagreen.github.io/html_exercise/" target="_blank"> Html</a>, advanced <a href="https://boobagreen.github.io/advancedscss_claudio/" target="_blank"> CSS/SASS </a> and 
 <a href="https://forkify-claudiodallara77.netlify.app/" target="_blank">Javascript</a>.
-<br />&darr; Let's work togheter
+<br />&darr; Let's work together
 `;
 text_work = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
  last long job as <a href="https://www.unieuro.it/online/" target="_blank">Unieuro</a> store manager, current at <a href="https://www.unieurogambettola.it/" target="_blank">Maroni Group</a>.
- <br />&darr; Let's work togheter
+ <br />&darr; Let's work together
 `;
 text_interest = `
 Hi, I'm
@@ -47,14 +47,14 @@ stuff regarding <a href="https://www.youtube.com/watch?v=-MDgxwhigSQ&t=3541s" ta
 <a href="https://www.youtube.com/watch?v=lCGuKVPyQhk&t=158s" target="_blank">retro-coding</a>,
 <a href="https://www.youtube.com/watch?v=uNz2CDME85Y&list=PLsxmJ-WxSB5Q1sfK0LPX1NMk9hvLxwaX4&index=7" target="_blank">chess</a>,
 <a href="https://locomalito.com/" target="_blank">gaming</a> and cats.
-<br />&darr; Let's work togheter
+<br />&darr; Let's work together
 `;
 text_dream = `
 Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>, my dream jobs are <a href="https://www.raiplay.it/programmi/adrianoolivetti" target="_blank">Olivetti </a>in the 60s,
 <a href="https://en.wikipedia.org/wiki/Jeff_Minter" target="_blank">Llamasoft</a> in the 80s,
 <a href="https://www.binance.com/it" target="_blank">Binance</a> now.
-<br />&darr; Let's work togheter
+<br />&darr; Let's work together
 `;
 
 function myClick() {

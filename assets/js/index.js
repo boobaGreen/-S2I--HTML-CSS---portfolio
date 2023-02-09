@@ -18,7 +18,7 @@ I often get lost in <a href="https://www.youtube.com/watch?v=kemivUKb4f4" target
  watching <a href="https://www.youtube.com/watch?v=SlDvRWuDmRk" target="_blank"">Serie C</a> and TV 
  <a href="https://www.youtube.com/watch?v=ArtxggPM_J0" target="_blank"">series</a>,
  <a href="https://www.youtube.com/watch?v=KQTqUazqnVY" target="_blank"">physics </a>  and cats.
- &darr; Let's work togheter
+ <br />&darr; Let's work togheter
 `;
 text_project = `
 Hi, I'm
@@ -41,7 +41,7 @@ Hi, I'm
 `;
 text_interest = `
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
-sometimes I find myself delving into something about the 
+sometimes I find myself delving into something about 
 <a href="https://www.youtube.com/watch?v=bB9F6u5D178" target="_blank">guitar</a>,
 stuff regarding <a href="https://www.youtube.com/watch?v=-MDgxwhigSQ&t=3541s" target="_blank">design</a>,
 <a href="https://www.youtube.com/watch?v=lCGuKVPyQhk&t=158s" target="_blank">retro-coding</a>,

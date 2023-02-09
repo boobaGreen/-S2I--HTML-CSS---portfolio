@@ -12,7 +12,7 @@ body {
 }
 
 body.click-active {
-  background-color: #fff;
+  background-color: rgb(244, 244, 236);
 }
 
 .container {
@@ -21,10 +21,6 @@ body.click-active {
   margin: auto;
   display: grid;
   grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
-  /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
-  qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
-  eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
-  grafica*/
   grid-template-columns: [start-airbag-sx] 1fr [end-airbag-sx start-real] 3fr [end-real start-airbag-dx] 1fr [end-airbag-dx];
 }
 
@@ -33,33 +29,25 @@ html {
   font-size: 62.5%;
 }
 
-a:link {
+a:link,
+a:visited {
   text-decoration: none;
   color: #82bbcf;
-}
-
-a:focus {
-  color: #427c91;
 }
 
 a:hover {
   color: #427c91;
 }
 
-a:visited {
-  text-decoration: none;
-  color: #82bbcf;
-}
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  color: #fff;
+  color: rgb(244, 244, 236);
   font-weight: 700;
   line-height: 1.75;
 }
 
 body.click-active {
-  color: #4f4f4f;
+  color: #23451b;
 }
 
 .principal {
@@ -94,7 +82,7 @@ body.click-active {
 }
 
 .circle.click-active {
-  background-color: #fff;
+  background-color: rgb(244, 244, 236);
 }
 
 .thema-selection {
@@ -102,7 +90,7 @@ body.click-active {
   position: absolute;
   bottom: 4px;
   left: 4px;
-  background-color: #fff;
+  background-color: rgb(244, 244, 236);
   height: 28px;
   width: 28px;
   border-radius: 50%;
@@ -131,16 +119,12 @@ body.click-active {
   background-color: rgb(242, 227, 7);
 }
 .thema-selection.click-active::before {
-  background-color: #fff;
+  background-color: rgb(244, 244, 236);
   transform: translate(12px, -12px);
   opacity: 1;
 }
 .thema-selection.click-active:hover {
   transform: scale(1.2);
-}
-
-.version-selection {
-  color: #fff;
 }
 
 .principal {

@@ -38,7 +38,7 @@ body.click-active {
   width: 75%;
   margin: auto;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
 
   /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
   qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed

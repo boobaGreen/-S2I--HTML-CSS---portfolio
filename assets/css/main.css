@@ -20,7 +20,7 @@ body.click-active {
   width: 75%;
   margin: auto;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
   /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
   qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
   eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
@@ -80,12 +80,13 @@ body.click-active {
 }
 
 .circle {
-  height: 36px;
-  width: 36px;
+  height: 34px;
+  width: 34px;
   background-color: #29263e;
   border-radius: 50%;
   position: absolute;
   overflow: hidden;
+  bottom: -2rem;
 }
 
 .circle.click-active {

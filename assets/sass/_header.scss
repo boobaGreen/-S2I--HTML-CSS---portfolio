@@ -1,7 +1,7 @@
 .header {
   position: relative;
   display: flex;
-  grid-column: normal-start / normal-end;
+  grid-column: start-real / end-real;
   grid-row: 1/2;
   margin-bottom: 3rem;
   justify-content: start;

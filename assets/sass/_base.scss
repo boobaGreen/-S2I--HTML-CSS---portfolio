@@ -44,10 +44,5 @@ body.click-active {
   qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
   eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
   grafica*/
-  grid-template-columns:
-    [normal-start] repeat(
-      8,
-      [col-start] minmax(min-content, max-content) [col-end]
-    )
-    [normal-end];
+  grid-template-columns: [start-airbag-sx] 1fr [end-airbag-sx start-real] 3fr [end-real start-airbag-dx]1fr [end-airbag-dx];
 }

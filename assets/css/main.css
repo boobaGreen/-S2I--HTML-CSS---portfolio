@@ -25,7 +25,7 @@ body.click-active {
   qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
   eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
   grafica*/
-  grid-template-columns: [normal-start] repeat(8, [col-start] minmax(min-content, max-content) [col-end]) [normal-end];
+  grid-template-columns: [start-airbag-sx] 1fr [end-airbag-sx start-real] 3fr [end-real start-airbag-dx] 1fr [end-airbag-dx];
 }
 
 html {
@@ -72,7 +72,7 @@ body.click-active {
 .header {
   position: relative;
   display: flex;
-  grid-column: normal-start/normal-end;
+  grid-column: start-real/end-real;
   grid-row: 1/2;
   margin-bottom: 3rem;
   justify-content: start;
@@ -103,6 +103,7 @@ body.click-active {
   width: 28px;
   border-radius: 50%;
   transition: all 0.2s ease-in;
+  overflow: overlay;
 }
 .thema-selection::before {
   opacity: 1;
@@ -119,7 +120,7 @@ body.click-active {
   transition: all 0.2s ease-out;
 }
 .thema-selection:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 .thema-selection.click-active {
@@ -139,7 +140,7 @@ body.click-active {
 }
 
 .principal {
-  grid-column: normal-start/normal-end;
+  grid-column: start-real/end-real;
   grid-row: 2/3;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -147,7 +148,7 @@ body.click-active {
 
 .footer {
   margin-top: 2rem;
-  grid-column: normal-start/normal-end;
+  grid-column: start-real/end-real;
   grid-row: 3/4;
   display: flex;
   justify-content: start;

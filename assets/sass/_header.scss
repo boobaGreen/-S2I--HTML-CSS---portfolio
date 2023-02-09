@@ -2,8 +2,8 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   grid-column: normal-start / normal-end;
   grid-row: 2/3;
-  overflow: hidden;
+  margin-bottom: 3rem;
 }

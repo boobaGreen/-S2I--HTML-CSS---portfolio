@@ -1,7 +1,7 @@
 .thema-selection {
   opacity: 1;
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   left: 2px;
   background-color: $color-primary-night;
   height: 28px;
@@ -34,7 +34,7 @@
 
   &::before {
     background-color: $color-background-day;
-    transform: translate(10px, -25px);
+    transform: translate(12px, -12px);
     opacity: 1;
   }
   &:hover {

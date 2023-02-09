@@ -16,11 +16,12 @@ body.click-active {
 }
 
 .container {
+  padding: 1rem 6rem 1rem 12rem;
   height: 95vh;
   margin: auto;
-  width: 55%;
+  width: 75%;
   display: grid;
-  grid-template-rows: 1fr 4rem min-content 3rem 1fr;
+  grid-template-rows: 1fr minmax(1rem, 2rem) min-content 1fr 1fr;
   /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
   qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
   eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
@@ -71,7 +72,9 @@ body.click-active {
 
 .airbagup {
   grid-column: airbag-sx-start/airbag-sx-end;
+  content: "";
   grid-row: 1/2;
+  height: 40rem;
 }
 
 .airbagdown {
@@ -83,16 +86,16 @@ body.click-active {
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   grid-column: normal-start/normal-end;
   grid-row: 2/3;
-  overflow: hidden;
+  margin-bottom: 3rem;
 }
 
 .thema-selection {
   opacity: 1;
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   left: 2px;
   background-color: #fff;
   height: 28px;
@@ -123,7 +126,7 @@ body.click-active {
 }
 .thema-selection.click-active::before {
   background-color: #fff;
-  transform: translate(10px, -25px);
+  transform: translate(12px, -12px);
   opacity: 1;
 }
 .thema-selection.click-active:hover {

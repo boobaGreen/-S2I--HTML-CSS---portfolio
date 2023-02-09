@@ -4,7 +4,6 @@ Hi, I'm
         <a href="#/" id="curious" rel="noopener">curious</a> and
         <a href="#/" id="project" rel="noopener">enthusiastic</a> apprentice
         <a href="#/" id="code" rel="noopener">coder</a>.
-        <br />
         I'm <a href="#/" id="work" rel="noopener">grizzled</a> but still have
         <a href="#/" id="interest" rel="noopener">interests</a> and dream
         <a href="#/" id="dream" rel="noopener">jobs</a> in my drawer.

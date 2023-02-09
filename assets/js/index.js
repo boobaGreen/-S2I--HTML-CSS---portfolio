@@ -40,6 +40,7 @@ Hi, I'm
  <br />&darr; Let's work togheter
 `;
 text_interest = `
+Hi, I'm
 <a href="#/" id="main">Claudio&nbsp;Dall'Ara</a>,
 sometimes I find myself delving into something about 
 <a href="https://www.youtube.com/watch?v=bB9F6u5D178" target="_blank">guitar</a>,
@@ -60,6 +61,7 @@ Hi, I'm
 function myClick() {
   document.getElementById("thema-selection").classList.toggle("click-active");
   document.getElementById("body").classList.toggle("click-active");
+  document.getElementById("circle").classList.toggle("click-active");
 }
 
 function change_main(name_link) {

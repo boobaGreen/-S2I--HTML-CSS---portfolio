@@ -8,7 +8,7 @@
 
 body {
   background-color: #29263e;
-  transition: all 0.5s ease-in-out; /* Animation */
+  transition: all 0.2s ease-in-out; /* Animation */
 }
 
 body.click-active {
@@ -16,17 +16,16 @@ body.click-active {
 }
 
 .container {
-  padding: 1rem 6rem 1rem 12rem;
-  height: 95vh;
-  margin: auto;
+  height: 100vh;
   width: 75%;
+  margin: auto;
   display: grid;
-  grid-template-rows: 1fr minmax(1rem, 2rem) min-content 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   /*posso usare 12 come in Bootstrap o personalizzare la divisione in colonne del progetto
   qui ne sto usando 8 di griglia prinicpale + 2 cuscinetti a destra e sininstra x margini ed
   eventuali aggiunte grafica che vanno da tutta sx a tutta dx potendo dare una variante 
   grafica*/
-  grid-template-columns: [airbag-sx-start full-start] 1fr [airbag-sx-end normal-start] repeat(8, [col-start] minmax(min-content, 240rem) [col-end]) [airbag-dx-start normal-end] 1fr [airbag-dx-end full-end];
+  grid-template-columns: [normal-start] repeat(8, [col-start] minmax(min-content, max-content) [col-end]) [normal-end];
 }
 
 html {
@@ -70,38 +69,39 @@ body.click-active {
   font-weight: 400;
 }
 
-.airbagup {
-  grid-column: airbag-sx-start/airbag-sx-end;
-  content: "";
-  grid-row: 1/2;
-  height: 40rem;
-}
-
-.airbagdown {
-  grid-column: airbag-sx-start/airbag-sx-end;
-  grid-row: 4/5;
-}
-
 .header {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: start;
   grid-column: normal-start/normal-end;
-  grid-row: 2/3;
+  grid-row: 1/2;
   margin-bottom: 3rem;
+  justify-content: start;
+  align-items: end;
+}
+
+.circle {
+  height: 36px;
+  width: 36px;
+  background-color: #29263e;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.circle.click-active {
+  background-color: #fff;
 }
 
 .thema-selection {
   opacity: 1;
   position: absolute;
-  bottom: 0px;
-  left: 2px;
+  bottom: 4px;
+  left: 4px;
   background-color: #fff;
   height: 28px;
   width: 28px;
   border-radius: 50%;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
 }
 .thema-selection::before {
   opacity: 1;
@@ -112,13 +112,13 @@ body.click-active {
   bottom: 10px;
   left: 9px;
   background-color: #29263e;
-  height: 32px;
-  width: 32px;
+  height: 28px;
+  width: 28px;
   border-radius: 50%;
-  transition: all 0.1s ease-out;
+  transition: all 0.2s ease-out;
 }
 .thema-selection:hover {
-  transform: scale(1.15);
+  transform: scale(1.2);
 }
 
 .thema-selection.click-active {
@@ -130,7 +130,7 @@ body.click-active {
   opacity: 1;
 }
 .thema-selection.click-active:hover {
-  transform: scale(1.15);
+  transform: scale(1.2);
 }
 
 .version-selection {
@@ -139,13 +139,15 @@ body.click-active {
 
 .principal {
   grid-column: normal-start/normal-end;
-  grid-row: 3/4;
+  grid-row: 2/3;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .footer {
   margin-top: 2rem;
   grid-column: normal-start/normal-end;
-  grid-row: 4/5;
+  grid-row: 3/4;
   display: flex;
   justify-content: start;
   gap: 2rem;

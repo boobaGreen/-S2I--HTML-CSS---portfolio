@@ -1,9 +1,9 @@
 .header {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: start;
   grid-column: normal-start / normal-end;
-  grid-row: 2/3;
+  grid-row: 1/2;
   margin-bottom: 3rem;
+  justify-content: start;
+  align-items: end;
 }

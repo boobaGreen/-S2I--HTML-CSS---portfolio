@@ -1,13 +1,25 @@
+.circle {
+  height: 36px;
+  width: 36px;
+  background-color: $color-background-night;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.circle.click-active {
+  background-color: $color-background-day;
+}
 .thema-selection {
   opacity: 1;
   position: absolute;
-  bottom: 0px;
-  left: 2px;
+  bottom: 4px;
+  left: 4px;
   background-color: $color-primary-night;
   height: 28px;
   width: 28px;
   border-radius: 50%;
-  transition: all 0.3s ease-in;
+  transition: all $timing ease-in;
 
   &::before {
     opacity: 1;
@@ -18,14 +30,14 @@
     bottom: 10px;
     left: 9px;
     background-color: $color-background-night;
-    height: 32px;
-    width: 32px;
+    height: 28px;
+    width: 28px;
     border-radius: 50%;
-    transition: all 0.1s ease-out;
+    transition: all $timing ease-out;
   }
 
   &:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
   }
 }
 
@@ -38,6 +50,6 @@
     opacity: 1;
   }
   &:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
   }
 }

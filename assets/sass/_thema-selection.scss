@@ -21,6 +21,7 @@
   width: 28px;
   border-radius: 50%;
   transition: all $timing ease-in;
+  overflow: overlay;
 
   &::before {
     opacity: 1;

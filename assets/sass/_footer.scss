@@ -1,8 +1,19 @@
 .footer {
-  margin-top: 2rem;
   grid-column: start-real / end-real;
   grid-row: 3/4;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   gap: 2rem;
+}
+
+.footer-sx {
+  display: flex;
+  gap: 2rem;
+  width: 80%;
+}
+
+.footer-dx {
+  width: 20%;
+  display: flex;
+  justify-content: center;
 }

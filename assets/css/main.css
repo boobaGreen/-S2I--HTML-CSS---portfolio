@@ -72,12 +72,13 @@ body.click-active {
 }
 
 .circle {
-  height: 36px;
-  width: 36px;
+  left: -0.5rem;
+  height: 3.6rem;
+  width: 3.6rem;
   background-color: #29263e;
   border-radius: 50%;
   position: absolute;
-  bottom: -2rem;
+  bottom: -3rem;
   overflow: hidden;
 }
 
@@ -88,11 +89,11 @@ body.click-active {
 .thema-selection {
   opacity: 1;
   position: absolute;
-  bottom: 4px;
-  left: 4px;
+  bottom: 0.4rem;
+  left: 0.4rem;
   background-color: rgb(244, 244, 236);
-  height: 28px;
-  width: 28px;
+  height: 2.8rem;
+  width: 2.8rem;
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
@@ -100,13 +101,13 @@ body.click-active {
   opacity: 1;
   position: absolute;
   content: ""; /* content: "" - altrimenti non si vede l oggetto _before */
-  top: -12px;
-  right: 10px;
-  bottom: 10px;
-  left: 9px;
+  top: -1.2rem;
+  right: 1rem;
+  bottom: 1rem;
+  left: 0.9rem;
   background-color: #29263e;
-  height: 28px;
-  width: 28px;
+  height: 2.8rem;
+  width: 2.8rem;
   border-radius: 50%;
   transition: all 0.2s ease-out;
 }
@@ -134,10 +135,21 @@ body.click-active {
 }
 
 .footer {
-  margin-top: 2rem;
   grid-column: start-real/end-real;
   grid-row: 3/4;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   gap: 2rem;
+}
+
+.footer-sx {
+  display: flex;
+  gap: 2rem;
+  width: 80%;
+}
+
+.footer-dx {
+  width: 20%;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

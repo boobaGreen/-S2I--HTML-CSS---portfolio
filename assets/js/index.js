@@ -30,7 +30,7 @@ some of my projects of the last period are in <a href="https://boobagreen.github
 `;
 text_work = `
 Hi, I'm Claudio Dall'Ara,
- last long job as <a href="https://www.unieuro.it/online/" target="_blank">Unieuro</a> store manager, current at <a href="https://www.unieurogambettola.it/" target="_blank">Maroni Group</a>.
+ last long job as <a href="https://www.unieuro.it/online/" target="_blank">Unieuro</a> store manager, currently at <a href="https://www.unieurogambettola.it/" target="_blank">Maroni Group</a>.
  <br />&darr; Let's work together
 `;
 text_interest = `

@@ -1,3 +1,12 @@
+.container {
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
+  grid-template-columns: [start-airbag-sx] 1fr [end-airbag-sx start-real] 3fr [end-real start-airbag-dx]1fr [end-airbag-dx];
+}
+
 .principal {
   grid-column: start-real / end-real;
   grid-row: 2/3;

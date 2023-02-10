@@ -34,12 +34,3 @@ body {
 body.click-active {
   background-color: $color-background-day;
 }
-
-.container {
-  height: 100vh;
-  width: 75%;
-  margin: auto;
-  display: grid;
-  grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
-  grid-template-columns: [start-airbag-sx] 1fr [end-airbag-sx start-real] 3fr [end-real start-airbag-dx]1fr [end-airbag-dx];
-}

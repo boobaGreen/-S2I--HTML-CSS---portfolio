@@ -15,15 +15,6 @@ body.click-active {
   background-color: rgb(244, 244, 236);
 }
 
-.container {
-  height: 100vh;
-  width: 75%;
-  margin: auto;
-  display: grid;
-  grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
-  grid-template-columns: [start-airbag-sx] 1fr [end-airbag-sx start-real] 3fr [end-real start-airbag-dx] 1fr [end-airbag-dx];
-}
-
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -123,6 +114,15 @@ body.click-active {
 }
 .thema-selection.click-active:hover {
   transform: scale(1.2);
+}
+
+.container {
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
+  grid-template-columns: [start-airbag-sx] 1fr [end-airbag-sx start-real] 3fr [end-real start-airbag-dx] 1fr [end-airbag-dx];
 }
 
 .principal {

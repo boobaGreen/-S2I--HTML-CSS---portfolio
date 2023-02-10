@@ -16,4 +16,9 @@
   width: 20%;
   display: flex;
   justify-content: center;
+  visibility: hidden;
+}
+
+.footer-dx.main-page {
+  visibility: visible;
 }

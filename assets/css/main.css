@@ -67,8 +67,8 @@ body.click-active {
   grid-column: start-real/end-real;
   grid-row: 1/2;
   margin-bottom: 3rem;
-  justify-content: start;
-  align-items: end;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .circle {
@@ -152,4 +152,9 @@ body.click-active {
   width: 20%;
   display: flex;
   justify-content: center;
+  visibility: hidden;
+}
+
+.footer-dx.main-page {
+  visibility: visible;
 }/*# sourceMappingURL=main.css.map */

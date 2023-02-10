@@ -4,6 +4,6 @@
   grid-column: start-real / end-real;
   grid-row: 1/2;
   margin-bottom: 3rem;
-  justify-content: start;
-  align-items: end;
+  justify-content: flex-start;
+  align-items: flex-end;
 }

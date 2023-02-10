@@ -10,11 +10,11 @@ together
 `;
 text_curious = `
 Hi, I'm Claudio Dall'Ara,
-I often get lost in <a href="https://www.youtube.com/watch?v=kemivUKb4f4" target="_blank"">music</a>,
+I often get lost in <a href="https://www.youtube.com/watch?v=oHMJE0rcb8M" target="_blank">music</a>,
 <a href="https://www.youtube.com/watch?v=8AVqNtDYAY0" target="_blank"">retro-gaming</a>,
- watching <a href="https://www.youtube.com/watch?v=SlDvRWuDmRk" target="_blank"">Serie C</a> and TV 
- <a href="https://www.youtube.com/watch?v=ArtxggPM_J0" target="_blank"">shows</a>,
- <a href="https://www.youtube.com/watch?v=KQTqUazqnVY" target="_blank"">physics </a>  and cats.
+ watching <a href="https://www.youtube.com/watch?v=SlDvRWuDmRk" target="_blank">Serie C</a> and TV 
+ <a href="https://www.youtube.com/watch?v=ArtxggPM_J0" target="_blank">shows</a>,
+ <a href="https://www.youtube.com/watch?v=KQTqUazqnVY" target="_blank">physics </a>  and cats.
  <br />&darr; Let's work together
 `;
 text_project = `

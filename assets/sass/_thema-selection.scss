@@ -28,7 +28,7 @@
     position: absolute;
     content: ""; /* content: "" - altrimenti non si vede l oggetto _before */
     top: -1.2rem;
-    right: 1rem;
+    right: 1.2rem;
     bottom: 1rem;
     left: 0.9rem;
     background-color: $color-background-night;
@@ -48,7 +48,7 @@
 
   &::before {
     background-color: $color-background-day;
-    transform: translate(12px, -12px);
+    transform: translate(2rem, -2rem);
     opacity: 1;
   }
   &:hover {

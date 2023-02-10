@@ -26,7 +26,7 @@ body.click-active {
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 90%;
 }
 
 a:link,
@@ -102,7 +102,7 @@ body.click-active {
   position: absolute;
   content: ""; /* content: "" - altrimenti non si vede l oggetto _before */
   top: -1.2rem;
-  right: 1rem;
+  right: 1.2rem;
   bottom: 1rem;
   left: 0.9rem;
   background-color: #29263e;
@@ -120,7 +120,7 @@ body.click-active {
 }
 .thema-selection.click-active::before {
   background-color: rgb(244, 244, 236);
-  transform: translate(12px, -12px);
+  transform: translate(2rem, -2rem);
   opacity: 1;
 }
 .thema-selection.click-active:hover {

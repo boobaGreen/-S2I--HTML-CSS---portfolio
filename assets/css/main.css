@@ -26,7 +26,8 @@ body.click-active {
 
 html {
   box-sizing: border-box;
-  font-size: 90%;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 a:link,
@@ -42,6 +43,7 @@ a:hover {
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   color: rgb(244, 244, 236);
+  font-size: 1.5em;
   font-weight: 700;
   line-height: 1.75;
 }
@@ -50,14 +52,12 @@ body.click-active {
   color: #23451b;
 }
 
-.principal {
-  font-size: 2.4rem;
-  line-height: 4.4rem;
+.container {
+  max-width: 50em;
 }
 
 .footer {
-  font-size: 1.4rem;
-  letter-spacing: 1px;
+  font-size: 0.6em;
   font-weight: 400;
 }
 
@@ -73,8 +73,8 @@ body.click-active {
 
 .circle {
   left: -0.5rem;
-  height: 3.6rem;
-  width: 3.6rem;
+  height: 2.2rem;
+  width: 2.2rem;
   background-color: #29263e;
   border-radius: 50%;
   position: absolute;
@@ -89,11 +89,11 @@ body.click-active {
 .thema-selection {
   opacity: 1;
   position: absolute;
-  bottom: 0.4rem;
-  left: 0.4rem;
+  bottom: 0.1rem;
+  left: 0.1rem;
   background-color: rgb(244, 244, 236);
-  height: 2.8rem;
-  width: 2.8rem;
+  height: 1.8rem;
+  width: 1.8rem;
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
@@ -101,13 +101,11 @@ body.click-active {
   opacity: 1;
   position: absolute;
   content: ""; /* content: "" - altrimenti non si vede l oggetto _before */
-  top: -1.2rem;
-  right: 1.2rem;
-  bottom: 1rem;
-  left: 0.9rem;
+  top: -0.5rem;
+  left: 0.5rem;
   background-color: #29263e;
-  height: 2.8rem;
-  width: 2.8rem;
+  height: 1.8rem;
+  width: 1.8rem;
   border-radius: 50%;
   transition: all 0.2s ease-out;
 }

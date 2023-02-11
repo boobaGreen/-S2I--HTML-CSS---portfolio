@@ -1,4 +1,5 @@
 .header {
+  animation: fade 0.5s cubic-bezier(0, 0.5, 0.5, 1) 0.3s backwards;
   position: relative;
   display: flex;
   grid-column: start-real / end-real;

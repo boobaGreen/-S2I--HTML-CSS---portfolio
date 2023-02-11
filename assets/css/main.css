@@ -12,7 +12,7 @@ body {
 }
 
 body.click-active {
-  background-color: rgb(244, 244, 236);
+  background-color: #f4f4ec;
 }
 
 html {
@@ -33,7 +33,7 @@ a:hover {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  color: rgb(244, 244, 236);
+  color: #f4f4ec;
   font-size: 1.5em;
   font-weight: 700;
   line-height: 1.75;
@@ -53,6 +53,7 @@ body.click-active {
 }
 
 .header {
+  animation: fade 0.5s cubic-bezier(0, 0.5, 0.5, 1) 0.3s backwards;
   position: relative;
   display: flex;
   grid-column: start-real/end-real;
@@ -74,7 +75,7 @@ body.click-active {
 }
 
 .circle.click-active {
-  background-color: rgb(244, 244, 236);
+  background-color: #f4f4ec;
 }
 
 .thema-selection {
@@ -82,7 +83,7 @@ body.click-active {
   position: absolute;
   bottom: 0.1rem;
   left: 0.1rem;
-  background-color: rgb(244, 244, 236);
+  background-color: #f4f4ec;
   height: 1.8rem;
   width: 1.8rem;
   border-radius: 50%;
@@ -105,10 +106,10 @@ body.click-active {
 }
 
 .thema-selection.click-active {
-  background-color: rgb(242, 227, 7);
+  background-color: #f2e307;
 }
 .thema-selection.click-active::before {
-  background-color: rgb(244, 244, 236);
+  background-color: #f4f4ec;
   transform: translate(2rem, -2rem);
   opacity: 1;
 }
@@ -126,6 +127,7 @@ body.click-active {
 }
 
 .principal {
+  animation: animate-up 0.5s cubic-bezier(0, 0.5, 0.5, 1) backwards;
   grid-column: start-real/end-real;
   grid-row: 2/3;
   padding-top: 2rem;
@@ -133,6 +135,7 @@ body.click-active {
 }
 
 .footer {
+  animation: animate-up 0.5s cubic-bezier(0, 0.5, 0.5, 1) backwards;
   grid-column: start-real/end-real;
   grid-row: 3/4;
   display: flex;
@@ -155,4 +158,17 @@ body.click-active {
 
 .footer-dx.main-page {
   visibility: visible;
+}
+
+@keyframes animate-up {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -8,6 +8,8 @@
 }
 
 .principal {
+  animation: animate-up 0.5s cubic-bezier(0, 0.5, 0.5, 1) backwards;
+
   grid-column: start-real / end-real;
   grid-row: 2/3;
   padding-top: 2rem;

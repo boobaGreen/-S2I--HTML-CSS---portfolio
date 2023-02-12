@@ -1,5 +1,6 @@
 .header {
   animation: bounce 0.5s cubic-bezier(0.48, 1.94, 0.37, 0.6) 0.5s backwards;
+  //Animazione luna iniziale richiamata
   position: relative;
   display: flex;
   grid-column: start-real / end-real;

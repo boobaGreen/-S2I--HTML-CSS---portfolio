@@ -3,12 +3,14 @@
   width: 90%;
   margin: auto;
   display: grid;
+  // Creazione griglia 3 righe X 3 colonne
+  // righe e colonne esterne fungono da "airbag"
   grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
   grid-template-columns: [start-airbag-sx] 1fr [end-airbag-sx start-real] 3fr [end-real start-airbag-dx]1fr [end-airbag-dx];
 }
 
 .principal {
-  animation: animate-up 0.5s cubic-bezier(0, 0.5, 0.5, 1) backwards;
+  animation: animate-up 0.5s cubic-bezier(0, 0.5, 0.5, 1) backwards; // animazione iniziale richiamata
 
   grid-column: start-real / end-real;
   grid-row: 2/3;

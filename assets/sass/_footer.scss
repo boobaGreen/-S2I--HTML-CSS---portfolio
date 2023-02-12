@@ -1,5 +1,5 @@
 .footer {
-  animation: animate-up 0.5s cubic-bezier(0, 0.5, 0.5, 1) backwards;
+  animation: animate-up 0.5s cubic-bezier(0, 0.5, 0.5, 1) backwards; // animazione iniziale richiamata
   grid-column: start-real / end-real;
   grid-row: 3/4;
   display: flex;

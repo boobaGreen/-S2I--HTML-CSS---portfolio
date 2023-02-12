@@ -1,3 +1,4 @@
+// animazione iniziale principale
 @keyframes animate-up {
   0% {
     opacity: 0;
@@ -5,6 +6,7 @@
   }
 }
 
+//animazione iniziale luna con rimbalzo
 @keyframes bounce {
   0% {
     opacity: 0;

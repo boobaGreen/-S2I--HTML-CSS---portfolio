@@ -28,7 +28,7 @@ $font-primary: -apple-system, BlinkMacSystemFont, sans-serif;
 
 body {
   background-color: $color-background-night;
-  transition: all $timing ease-in-out; /* Animation */
+  transition: all $timing ease-in-out; /* Animazione del cambio giorno/notte del background */
 }
 
 body.click-active {

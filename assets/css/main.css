@@ -8,7 +8,7 @@
 
 body {
   background-color: #29263e;
-  transition: all 0.2s ease-in-out; /* Animation */
+  transition: all 0.2s ease-in-out; /* Animazione del cambio giorno/notte del background */
 }
 
 body.click-active {
